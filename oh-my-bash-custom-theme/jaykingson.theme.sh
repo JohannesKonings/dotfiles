@@ -38,7 +38,7 @@ VIRTUALENV_THEME_PROMPT_PREFIX='('
 VIRTUALENV_THEME_PROMPT_SUFFIX=') '
 
 function aws_prompt_info() {
-    echo -e "${white}${AWS_PROFILE}"
+    echo -e "${yellow}${AWS_PROFILE} "
 }
 
 function prompt_command() {
